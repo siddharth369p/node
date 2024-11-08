@@ -105,6 +105,7 @@ curl -O https://nodejs.org/dist/vx.y.z/SHASUMS256.txt
 ```
 
 To check that downloaded files match the checksum, use `sha256sum`:
+---bash
 
 ```bash
 sha256sum -c SHASUMS256.txt --ignore-missing
